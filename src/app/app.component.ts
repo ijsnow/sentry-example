@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sentry-example';
+  throwError() {
+    throw new Error('An error')
+  }
 }
